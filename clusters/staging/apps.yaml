@@ -1,8 +1,8 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
-matadata:
+metadata:
   name: apps
-  namespsace: flux-system
+  namespace: flux-system
 spec:
   interval: 10m
   sourceRef: 
